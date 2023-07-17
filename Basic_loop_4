@@ -1,0 +1,33 @@
+public class Basic_loop_4 {
+
+	public static void main(String[] args) {
+		// Square root
+		// Square root predefined method
+		System.out.println(Math.sqrt(4));
+		System.out.println(Math.sqrt(16));
+		System.out.println(Math.sqrt(9));
+		System.out.println(Math.sqrt(25));
+		System.out.println(Math.sqrt(36));
+		System.out.println(Math.sqrt(49));
+		System.out.println(Math.sqrt(64));
+
+		// cube root
+		// cube root predefined method
+		System.out.println(Math.cbrt(27));
+		System.out.println(Math.cbrt(64));
+		System.out.println(Math.cbrt(125));
+		System.out.println(Math.cbrt(216));
+		System.out.println(Math.cbrt(343));
+		System.out.println(Math.cbrt(444));
+		System.out.println(Math.cbrt(555));
+
+		// power
+		int base = 2;
+		int power = 4;
+		int value = 1;
+		for (int i = 1; i <= power; ++i) {
+			value = base * value;
+		}
+		System.out.println(value);
+	}
+}
