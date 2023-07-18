@@ -6,6 +6,8 @@ public class Basic {
 		// while loops is working till the condition if false
 		// once condition fails while loop
 		// basic while loop syntax= one conditon and increment / decrement
+		// conditon true loop works
+		// condtion false loop stop work 
 
 		while (i < 10) {
 			System.out.println("hai");
