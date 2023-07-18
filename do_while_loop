@@ -1,0 +1,17 @@
+public class exampl_1 {
+
+	public static void main(String[] args) {
+		
+		//do while loop
+		//in this loop do excute the code statement and update statement
+		//while check the given condition 
+		//if condition true then the do part excute code
+		//if condition false then loops stop working and exit 
+		
+		int i = 1;
+		do {
+			System.out.println(i);
+			++i;
+		} while (i < 10);
+	}
+}
